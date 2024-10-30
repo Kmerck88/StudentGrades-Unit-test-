@@ -3,7 +3,7 @@
 // Get Percentage from user
 var gradeCalculator = new GradeCalculator();
 
-Console.Write("Enter the percentage : ");
+Console.writeLine("Enter the percentage : ");
 var percentage = Convert.ToInt32(Console.ReadLine());
 
 var grade = gradeCalculator.GetGradeByPercentage(percentage);
